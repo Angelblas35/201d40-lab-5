@@ -33,7 +33,6 @@ function multiply(a, b) { //eslint-disable-line
   var output = a * b;
   var message= `The product of ${a} and ${b} is ${output}.`;
   // var message = 'The product of ' + a + 'and ' + b + 'is' + output + '.';
-  console.log(message);
   return [output, message]
 }
 
